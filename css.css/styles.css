@@ -16,18 +16,18 @@ body {
     text-decoration: none;
 }
 
-/* h1, 
+h1, 
 h2, 
 h3, 
 p, 
 ul {
     padding: 0;
     margin: 0;
-} */
+}
 
 .none {display: none;}
 
-.сontainer {
+.container {
     width: 1230px;
     padding-left: 15px;
     padding-right: 15px;

@@ -34,15 +34,14 @@ ul {
     margin: 0 auto;
 }
 
-.section {
-    width: 1200px;
-    padding-left: 15px;
-    padding-bottom: 15px;
-    margin: 0 auto;
-    padding-top: 94px;
-    padding-bottom: 94px;
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
 .link {
+    margin-right: 50px;
     font-weight: 500;
     line-height: 1,14;
     letter-spacing: 0.02em;
@@ -54,11 +53,18 @@ ul {
     list-style-type: none;
     text-decoration: none;
     font-style: normal;
+    display: flex;
+    align-items: center;
 }
+
+
 
 .header {}
 
+
+
 .logo {
+    margin-right: 93px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -110,8 +116,10 @@ ul {
 .banner-title {
     width: 696px;
     height: 120px;
-    left: 452px;
-    top: 280px;
+    /* left: 452px;
+    top: 280px; */
+    margin-left: auto;
+    margin-right: auto;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;

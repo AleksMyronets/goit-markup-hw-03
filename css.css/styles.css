@@ -28,16 +28,21 @@ ul {
 .none {display: none;}
 
 .container {
-    width: 1230px;
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 1600px;
+    width: 1170px;
+    padding-left: auto;
+    padding-right: auto;
     margin: 0 auto;
 }
 
 .main-nav {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .link {
@@ -56,12 +61,6 @@ ul {
     display: flex;
     align-items: center;
 }
-
-
-
-.header {}
-
-
 
 .logo {
     margin-right: 93px;
@@ -84,14 +83,17 @@ ul {
 }
 
 .list-link {
+    display: flex;
     font-weight: 500;
     line-height: 16px;
+    padding-right: 50px;
     letter-spacing: 0.02em;
     color: #222121;
     text-decoration: none;
 }
 
 .list-link-studio {
+    padding-right: 50px;
     color: var(--color-blue);
 }
 
@@ -105,6 +107,9 @@ ul {
 }
 
 .banner {
+    padding-top: 200px;
+    padding-bottom: 280px;
+    margin: auto;
     background: var(--color-dark-grey);
     text-align: center;
 }
@@ -116,10 +121,9 @@ ul {
 .banner-title {
     width: 696px;
     height: 120px;
-    /* left: 452px;
-    top: 280px; */
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
@@ -148,8 +152,29 @@ ul {
     
 }
 
+.section {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+}
+
 .to-do {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 94px;
+    margin-bottom: 94px;
     background-color: var(--color-white);
+}
+
+.to-do-body {
+    width: 270px;
+}
+
+.to-do-title {
+    margin-bottom: 10px;
 }
 
 .to-do-title {
@@ -164,19 +189,37 @@ ul {
     color: var(--color-grey);
 }
 
-.work-img {background-color: var(--color-white);}
+.work{
+    gap: 30px;
+ }
+
+.work-img {
+    background-color: var(--color-white);
+    margin-bottom: 94px;
+}
 
 .work-img-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    margin-bottom: 50px;
     color: var(--color-black);
 }
 
-.work-img-img {}
+.work-img-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    mix-blend-mode: normal;
+}
 
-.team {background: var(--color-white);}
+.team {
+    background: var(--color-light-grey)};
+
+.container-team-comands{
+    margin-bottom: 94px;
+}
 
 .team-comands {
     font-weight: 700;
@@ -186,17 +229,33 @@ ul {
     color: var(--color-black);
 }
 
+.container-team-comands{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
 .jobs-list {
     background: var(--color-white);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
+.team {
+    margin-top: 50px;
+    gap: 30px;
+}
+
 .team-body {
-    border-radius: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
 }
 
 .name-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -205,6 +264,7 @@ ul {
 }
 
 .jobs-title {
+    margin-bottom: 30px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;

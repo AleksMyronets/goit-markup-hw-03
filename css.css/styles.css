@@ -25,12 +25,16 @@ ul {
     margin: 0;
 }
 
+ul{
+    text-decoration: none;
+}
+
 .none {display: none;}
 
 .container {
     width: 1200px;
-    padding-left: 15;
-    padding-right: 15;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
     outline: 2px solid red;
 }
@@ -384,6 +388,8 @@ ul {
     line-height: 1.88;
     color: var(--color-grey);
 }
+
+
 
 
 

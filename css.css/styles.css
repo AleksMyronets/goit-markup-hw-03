@@ -359,6 +359,7 @@ ul {
 .project-body {
     width: 370px;
     border: 1px solid #EEEEEE;
+    flex-basis: calc((100% - 90px) / 3);
 }
 
 .img{

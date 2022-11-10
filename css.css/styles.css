@@ -49,7 +49,7 @@ ul {
 }
 
 .header{
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header-container{
@@ -64,8 +64,6 @@ ul {
 .main-nav-list{
     display: flex;
     gap: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
     text-decoration: none;
 }
 
@@ -115,6 +113,8 @@ ul {
 
 
 .list-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
     display: flex;
     font-weight: 500;
     line-height: 16px;
@@ -247,7 +247,7 @@ ul {
 }
 
 .team-comands {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -261,6 +261,10 @@ ul {
     gap: 30px;
 }
 
+.list-team-name{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 .jobs-list {
     background: var(--color-white);
@@ -276,7 +280,6 @@ ul {
 }
 
 .name-title {
-    margin-top: 30px;
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -286,7 +289,6 @@ ul {
 }
 
 .jobs-title {
-    margin-bottom: 30px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -329,11 +331,11 @@ ul {
 }
 
 .contact-list-item{
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 .contact-list-item:last-child{
-    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .address-link:hover,
